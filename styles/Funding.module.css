@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+.fundingwrapper{
+
+    width: 90%;
+    font-family: 'Mukta', sans-serif;
+
+
+}
+.mum{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardwrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cardwrapper1{
+    width: 90%;
+
+    
+   
+}
+.center{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2rem;
+}
+.masterwrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    direction: column;
+    justify-content: center;
+    
+
+}
+
+@media only screen and (max-width: 950px) {
+    .mum{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .cardwrapper{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .cardwrapper1{
+        width: 100%;
+        margin-bottom: 5%;
+    
+        
+       
+    }
+    .center{
+
+       
+        font-family: 'Mukta', sans-serif;
+        text-align: center;
+        
+    
+    }
+  }

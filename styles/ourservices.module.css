@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+.ourservicewrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+    font-size: larger;
+    
+
+}
+
+.cardmasterwrapper{
+    width: 100%;
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    
+    
+
+}
+.cardmasterwrappermiddle{
+    width: 100%;
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    
+    
+
+}
+
+.descriptionphoto{
+    flex:50%;
+    display: block;
+    padding-top: 5%;
+
+    padding-bottom: 5%;
+    padding-right: 5%;
+    
+    
+}
+.descriptiontext{
+    flex:50%;
+    display: flex;
+    padding-top: 5%;
+
+    padding-bottom: 5%;
+    padding-left: 5%;
+    align-items: center;
+
+}
+.descriptiontextleft{
+    flex:50%;
+    display: flex;
+    padding-top: 5%;
+
+    padding-bottom: 5%;
+    padding-left: 5%;
+    align-items: center;
+
+}
+.descriptionphotomiddle{
+
+    flex:50%;
+    display: block;
+    padding-top: 5%;
+
+    padding-bottom: 5%;
+    padding-left: 5%;
+
+}
+.image{
+    
+    margin: 0 auto;
+    border: 1cm;
+
+    border-radius: 0 ;
+    
+    
+    
+
+}
+
+
+.textwrapper{
+    width: 100%;
+    padding-right: 30%;
+    
+}
+@media only screen and (max-width: 800px) {
+    .cardmasterwrapper{
+        max-width:100vw;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardmasterwrappermiddle{
+        max-width:100vw;
+        margin:0;
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    
+    }
+    .descriptionphotomiddle{
+
+        flex:50%;
+        display: block;
+        padding-top: 5%;
+    
+        padding-bottom: 0;
+        padding-left: 0%;
+        padding-right: 0%;
+    
+    }
+    .descriptionphoto{
+
+        flex:50%;
+        display: block;
+        padding-top: 5%;
+    
+        padding-bottom: 0;
+        padding-left: 0%;
+        padding-right: 0%;
+    
+    }
+    .textwrapper{
+        width: 100%;
+        padding-right: 0;
+        
+    }
+    .descriptiontext{
+        flex:50%;
+        display: flex;
+        padding-top: 5%;
+    
+        padding-bottom: 5%;
+        padding-left: 0;
+        align-items: center;
+    
+    }
+    .descriptiontextleft{
+        flex:50%;
+        display: flex;
+        padding-top: 5%;
+    
+        padding-bottom: 5%;
+        padding-left: 0;
+        align-items: center;
+    
+    }
+    
+   
+  }
+
+.ourservicewrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.OurServices{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight:900;
+    
+}
+
+
+.image{
+    border-radius: 5%;
+
+}
+.description{
+    width:50vw;
+}
+@media only screen and (max-width: 950px) {
+    .ourservicewrapper{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .image{
+        border-radius: 0;
+    
+    }
+    .h2{
+    text-align: center;
+    }
+    .p{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+  }

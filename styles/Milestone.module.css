@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+.btncontainer{
+
+    position: sticky;
+  top: 0;
+  background-color: rgba(245, 245, 245, 1);
+  
+
+
+}
+.btncontainer>*{
+   
+}
+.btn{
+    height:20px
+}
+
+.space{
+    height:auto
+} 
+.spaceemptybutton{
+    visibility: hidden;
+}
+.contentwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+.masterwrapper{
+    width: 100vw;
+    
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+   
+}
+.masterwrappernew{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+
+}
+.orange{
+    background-color: rgba(255, 206, 114, 0.302);
+}
+.section{
+    flex: 50%;
+    font-size: 1.3rem;
+}
+.fontlarger{
+    font-size: larger;
+}
+.milestonebtnwrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+}
+.textcenter{
+    text-align: center;
+}
+.referencecontainer{
+    font-size: 0.76rem;
+    width:60%;
+    margin: 0 auto;
+
+}
+.milestonetable{
+    width: 60%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 750px){
+    
+    .contentwrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .masterwrappernew{
+       
+        width: auto;
+        margin: 0 auto;
+        padding-left: 1%;
+        padding-right: 1%;
+        
+    }
+    .milestonetable{
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .referencecontainer{
+        font-size: 0.76rem;
+        width:90%;
+        margin: 0 auto;
+    
+    }
+    .masterwrapper{
+        padding-top: 5vh;
+    }
+}

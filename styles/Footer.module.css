@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../public/Assets/Fonts/Bryndan_Write.ttf');
+    
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Livia';
+        src: url('../public/Assets/Fonts/livia.ttf');
+        
+        font-weight: 400;
+        font-style: normal;
+        }
+
+.footerwrapper{
+    font-family: 'OpenSans';
+    width: 100%;
+    background-color: rgb(59, 35, 9);
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    
+    font-family: 'Mukta', sans-serif;
+    margin-top: 10%;
+    
+
+
+}
+.footersubwrapper{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.font{
+    font-family: 'OpenSans',sans-serif;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.fontlivia{
+    font-family: 'Livia',sans-serif;
+
+}
+.policy{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.policy >*{
+    color: white;
+}
+@media only screen and (max-width: 700px) {
+    .policy{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+    .footersubwrapper{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .policy{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    
+        
+    }
+
+}
+

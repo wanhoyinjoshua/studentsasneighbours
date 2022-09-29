@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+.masterwrapper{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.propicwrapper{
+    flex:50%;
+    max-height: 70vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Mukta', sans-serif;
+}
+.imagewrapper{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Mukta', sans-serif;
+   
+
+}
+.finalimagewrapper{
+    border: 1cm;
+    border-radius: 5%;
+
+}
+
+.center{
+    text-align: left;
+    padding-left:10vw;
+    padding-top: 5vh;
+    font-family: 'Mukta', sans-serif;
+}
+.descriptionwrapper{
+    flex:50%;
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    margin: 0;
+    padding: 0;
+}
+.h3{
+    font-size:medium;
+}
+.descriptioncontainer{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 5vw;
+
+
+}
+.p{
+    padding-right:8%;
+}
+
+@media only screen and (max-width: 450px) {
+    .masterwrapper{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Mukta', sans-serif;
+    
+    }
+    .descriptioncontainer{
+        margin: 0 auto;
+        width: 95%;
+        padding-left: 0;
+        padding-right: 0;
+    
+    
+    }
+  }

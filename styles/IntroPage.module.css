@@ -1,0 +1,656 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    
+    font-family: 'Mukta', sans-serif;
+    min-height: 70vh;
+    
+    overflow: hidden;
+    
+    
+    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-bottom: 3vh;
+    align-items: center;
+    background-color: white;
+    
+    z-index: -10000000000;
+    overflow: hidden;
+    
+    
+}
+
+
+.homeopagetitle{
+    font-family: "Mukta", serif;
+
+height: auto;
+padding: 0;
+margin: 0;
+font-weight: 800;
+font-size: 4rem;
+
+
+}
+.HeroContentL{
+   
+     width: 50%;
+     white-space: nowrap;
+  text-align: center;
+  
+  box-sizing: border-box;
+  height: 100%;
+
+   
+}
+.HeroContentR{
+   flex:70%;
+
+
+    white-space: nowrap;
+ text-align: center;
+ 
+ box-sizing: border-box;
+ 
+ padding-top: 0;
+ position: relative;
+ align-items: flex-end;
+ bottom: 0;
+ z-index: 0;
+ 
+ 
+
+
+}
+.HeroContentL button{
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.HeroContentL {
+    
+    height: 100%;
+    
+    align-items: center;
+    text-align: left;
+    white-space: pre-line;
+    padding-bottom: 0;
+   
+  
+}
+.orange{
+    
+}
+.h2{
+    font-size: 2.5rem;
+    font-family: 'Livia',sans-serif;
+    max-width: 70%;
+    
+    
+    
+}
+
+.HeroContentRimg{
+
+}
+
+.Herobtnwrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wordmapwrapper{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   
+
+}
+.wordmapvector{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+    font-size:2rem;
+    margin: 0 auto;
+    text-align: center;
+    border: 10px;
+    
+    
+    
+   
+    font-family: Mukuta, sans-serif;
+    
+
+
+}
+.imagebla{
+    position: relative;
+    z-index: 1000;
+    width: 70vh;
+    height: 70vh;
+    
+
+ 
+    border-radius: 0%;
+
+    overflow:hidden;
+  
+    padding-top: 0;
+    margin: 0 auto;
+    
+    
+}
+.imagebla2{
+    position: relative;
+    z-index: 1000;
+    
+
+    padding-top: 0;
+    margin: 0 auto;
+    
+}
+.imageblachild{
+    z-index: 0;
+}
+
+
+.buttonsucess{
+    max-width: 800px;
+    width: 10%;
+}
+.finalimagewrappersucess{
+    border: 1px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 950px){
+    .HeroContentL {
+        font-size: 20px;
+        
+        align-items: center;
+        height: auto;
+        
+    }
+    .h2{
+        margin: 0 auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 2rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-family: 'Mukta', sans-serif;
+        height: auto;
+        padding: 0;
+        padding-top: 10%;
+        
+        
+        
+        
+    }
+    .wordmapwrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Mukta', sans-serif;
+        font-weight: 300;
+        font-size:1.5rem;
+    }
+    .wordmapvector{
+        width: 90%;
+       
+        border: 10px;
+        
+        border-radius: 15px;
+       
+        padding: 5%;
+        text-align: center;
+        
+    
+    
+    }
+    .imagebla{
+        width: 80vw;
+        height: 80vw;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 10px;
+       
+    }
+    
+    .sucesspagewrap *{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .homeopagetitle{
+        font-family:Livia, sans-serif;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    font-size: 2rem;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 950px){
+    .HeroContentL {
+        font-size: 20px;
+       
+        align-items: center;
+        width: 100vw;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-family: 'Mukta', sans-serif;
+       
+        
+        
+        
+        
+    }
+    .wordmapwrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Mukta', sans-serif;
+        font-weight: 300;
+        font-size:1.5rem;
+    }
+    .wordmapvector{
+        width: 70%;
+        
+        border: none;
+       display: block;
+        padding: 5%;
+        text-align: center;
+    
+    
+    }
+   
+    
+    .sucesspagewrap *{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .homeopagetitle{
+        font-family: Livia, sans-serif;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    font-size: 4rem;
+    
+    
+    }
+    .HeroContentR{
+        width: 100%;
+        
+    
+        white-space: nowrap;
+     text-align: center;
+     
+     box-sizing: border-box;
+     
+     padding-top: 0;
+     position: relative;
+     align-items: flex-end;
+     bottom: 0;
+     
+    
+    
+    }
+}
+.sucesspage{
+    width: auto;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.sucesspagewrap{
+    width: auto;
+    text-align: center;
+    padding: 5%;
+    
+}
+.sucesspagewrap *{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+@media only screen and (max-width: 950px){
+   
+    
+    .sucesspagewrap *{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .HeroContentL {
+        font-size: 20px;
+        
+        text-align: center;
+       
+     padding: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 950px){
+    .HeroContentL {
+        font-size: 20px;
+        
+        align-items: center;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-family: 'Mukta', sans-serif;
+        height: auto;
+        
+        
+        
+        
+    }
+    .wordmapwrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Mukta', sans-serif;
+        font-weight: 300;
+        font-size:1.5rem;
+    }
+    .wordmapvector{
+        width: 90%;
+        
+        border: 10px;
+        
+        border-radius: 15px;
+       
+        padding: 5%;
+        text-align: center;
+    
+    
+    }
+    
+    
+    .sucesspagewrap *{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+}
+.sucesspage{
+    width: auto;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.sucesspagewrap{
+    width: auto;
+    text-align: center;
+    padding: 5%;
+    
+}
+.sucesspagewrap *{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+
+
+
+.wordmapmasterwrapper{
+    background-color: rgb(255, 255, 255);
+}
+
+.fontsmaller{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 950px){
+
+    .fontsmaller{
+        font-size: 1rem;
+        margin-top: 3vh;
+    }
+
+
+}
+
+.actualcloud> div {
+    color: #022f40;
+}
+.actualcloud{
+   height: auto;
+   width: 70vw;
+   margin: 0 auto;
+}
+
+.actualcloud> :nth-child(2n) {
+    font-size: 2rem;
+    color: #38aecc;
+    font-weight: bold;
+}
+
+.actualcloud :nth-child(4n) {
+    font-size: 3rem;
+    color: #183446;
+}
+
+.actualcloud :nth-child(5n) {
+    font-size: 4rem;
+    color: #046e8f;
+}
+
+
+.Programming {
+    grid-area: Programming;
+}
+.Algorithm {
+    grid-area: Algorithm;
+}
+.Software {
+    grid-area: Software;
+}
+.Documentation {
+    grid-area: Documentation;
+}
+.Coding {
+    grid-area: Coding;
+}
+.Information {
+    grid-area: Information;
+}
+.Testing {
+    grid-area: Testing;
+}
+.Computer {
+    grid-area: Computer;
+}
+.Debugging {
+    grid-area: Debugging;
+}
+.Design {
+    grid-area: Design;
+}
+.Readability {
+    grid-area: Readability;
+}
+.Learning {
+    grid-area: Learning;
+}
+@media only screen and (min-width: 1000px){
+
+    .homeopagetitle{
+        font-family: "Mukta", serif;
+    
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 3rem;
+    
+    
+    }
+    .h2{
+        font-size: 2rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 1300px){
+
+    .homeopagetitle{
+        font-family: "Mukta", serif;
+    
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 4rem;
+    
+    
+    }
+    .h2{
+        font-size: 2.5rem;
+    }
+
+}
+.cloud{
+    width: 80vw;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    max-width: 80vw;
+}
+.cloud>*{
+    margin: 0;
+}
+.cloud>* :hover{
+    
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row >p{
+    margin: 0;
+}
+.left{
+    text-align: left;
+
+}
+.right{
+    text-align: right;
+}
+.middle{
+    text-align: center;
+}
+
+.font1rem{
+    font-size: 1.5rem;
+}
+.font2rem{
+    font-size: 2rem;
+    
+}
+.font3rem{
+    font-size: 3rem;
+}
+.font4rem{
+    font-size: 4rem;
+
+}
+.font5rem{
+    font-size: 5rem;
+}
+.font6rem{
+    font-size:6rem;
+}
+
+.yellow{
+    color: rgb(255, 226, 41);
+}
+.ornage{
+    color:orange;
+}
+.purple{
+    color: rgb(251, 34, 110);
+}
+.pinkred{
+    color:pink
+}
+@media only screen and (max-width: 800px){
+
+    .cloud{
+        width: 100vw;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .font1rem{
+        font-size: 0.7rem;
+        
+    }
+    .font2rem{
+        font-size: 0.9rem;
+    }
+    .font3rem{
+        font-size: 1.2rem;
+    }
+    .font4rem{
+        font-size: 1.6rem;
+    
+    }
+    .font5rem{
+        font-size: 2.5rem;
+    }
+    .font6rem{
+        font-size:3.4rem;
+    }
+    
+    
+    
+    
+}
