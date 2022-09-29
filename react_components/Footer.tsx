@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
             
             <section>
-            <span>info@kidsandcubsclinic.com.au</span>
+            <span>sanet.dutoit@sydney.edu.au</span>
             <br></br>
             <span>126/85 Reynolds Street, Balmain NSW 2041 Australia
 </span>

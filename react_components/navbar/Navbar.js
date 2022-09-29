@@ -211,7 +211,7 @@ const [color, setColor] = useState('primary')
       
           <div className={styles.info}>
            
-          <Link href="/#contactus" className={styles.info}>info@kidsandcubsclinic.com.au</Link><br></br>
+          <Link href="/#contactus" className={styles.info}>sanet.dutoit@sydney.edu.au</Link><br></br>
           <a target="blank" href="https://www.google.com/maps/place/110+Reynolds+St,+Balmain+NSW+2041">126/85 Reynolds Street, Balmain NSW 2041</a>
             
           </div>
@@ -262,7 +262,7 @@ const [color, setColor] = useState('primary')
                 
              <Link href="/#contactus">
              <div className={ [styles.thirdnav,styles.contactwrappernav,styles.textbottomright,styles.textbottommobile,styles.border].join(" ")}>
-                <div className={[styles.noa,styles.thirdnav,styles.textbottom,styles.textbottommobile,styles.border].join(" ")}>info@kidsandcubsclinic.com.au</div>
+                <div className={[styles.noa,styles.thirdnav,styles.textbottom,styles.textbottommobile,styles.border].join(" ")}>sanet.dutoit@sydney.edu.au</div>
                
                 <div className={styles.callmelogo}><ContactMailOutlinedIcon></ContactMailOutlinedIcon></div>
                 </div>

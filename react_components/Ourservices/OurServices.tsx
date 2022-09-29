@@ -97,8 +97,7 @@ export default function OurServices() {
 
             <h2 className={styles.h2}>Assessment</h2>
             <p className={styles.p}>
-            Kids and Cubs Clinic offers speech pathology assessments for children aged 0-16 years old. 
-A speech pathology assessment will investigate any range of concerns regarding your child’s communication and will diagnose any existing communication difficulties. You will be provided with results and outcomes of the assessment as well as a recommended management plan. The length and type of assessment is typically based on your child’s age as well as the skills that are being assessed. 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
             </p>
 
@@ -120,7 +119,7 @@ A speech pathology assessment will investigate any range of concerns regarding y
 
 <h2 className={styles.h2}>Intervention</h2>
 <p className={styles.p}>
-Kids and Cubs Clinic provides targeted, evidence-based and individualised intervention. Therapy sessions are provided as 30 minute or 60 minute appointments. Therapy is available either in clinic (face-to-face) or via telehealth (videoconferencing). 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 </p>
 
 
@@ -170,7 +169,7 @@ Kids and Cubs Clinic provides targeted, evidence-based and individualised interv
 
       <h2 className={styles.h2}>Consultation and Training</h2>
       <p className={styles.p}>
-      We also offer consultation and training sessions to parents and educational staff (preschools, schools, or other organisations). Enquire with us today if you are interested in this service. 
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
 
 
