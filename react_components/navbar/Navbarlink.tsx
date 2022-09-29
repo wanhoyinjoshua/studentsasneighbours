@@ -61,9 +61,9 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen(false)}
   transition
 >
-  <MenuItem>Grannytell</MenuItem>
+  <MenuItem><Link href={"/projects/Grannytell"}>Grannytell</Link></MenuItem>
   
-  <MenuItem>Walking trail with Southampton University</MenuItem>
+  <MenuItem><Link href={"/projects/Walking-Trial-Southampton"}>Walking trail with Southampton University</Link></MenuItem>
 </ControlledMenu>
 <ControlledMenu
   state={isOpen2 ? 'open' : 'closed'}
@@ -72,8 +72,8 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen2(false)}
   transition
 >
-  <MenuItem>Scalabrini</MenuItem>
-  <MenuItem>Calvary</MenuItem>
+  <MenuItem><Link href={"/meet-our-students/Scalabrini"}>Scalabrini</Link></MenuItem>
+  <MenuItem><Link href={"/meet-our-students/Calvary"}>Calvary</Link></MenuItem>
   
 </ControlledMenu>
 
@@ -84,9 +84,10 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen3(false)}
   transition
 >
-  <MenuItem>Videos</MenuItem>
-  <MenuItem>Articles</MenuItem>
-  <MenuItem>Podcasts/Radios</MenuItem>
+  <MenuItem><Link href={"/videos"}>Videos</Link></MenuItem>
+  
+  <MenuItem><Link href={"/artices"}>Articles</Link></MenuItem>
+  <MenuItem><Link href={"/podcasts"}>Podcasts/Radio</Link></MenuItem>
   
 </ControlledMenu>
     
