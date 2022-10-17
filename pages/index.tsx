@@ -51,19 +51,13 @@ const index = () => {
         <OurServices></OurServices>
         
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__animated animate__fadeIn">
-        <ServicesAccordian></ServicesAccordian>
-        </AnimationOnScroll>
+        
         <br></br>
         
-        <div className={styles.space} id="contactus"></div>
+       
 
-        <AnimationOnScroll animateIn="animate__pulse">
-        <section >
-        <MasterContactForm></MasterContactForm>
-
-        </section>
-        </AnimationOnScroll>
+       
+   
 
 
         <Footer></Footer>

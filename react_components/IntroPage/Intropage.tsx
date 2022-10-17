@@ -40,7 +40,7 @@ const ResponsiveAppBar = () => {
     <section className={styles.HeroContentL}>
         <h1 className={styles.homeopagetitle}>
           Integeratonal  <br></br>
-          Live in Program
+          Live-in Student program 
           
           </h1>
         <h2 className={styles.h2}>
@@ -50,10 +50,7 @@ const ResponsiveAppBar = () => {
          
           </h2>
         
-          <div>
-          <ColorButton href="/#contactus"style={{zIndex: 1}}  sx={{ color: 'black', backgroundColor: '', borderColor: 'black' }}  onClick={() => {  }} variant="outlined" size="large">Enquire Now</ColorButton>
-
-          </div>
+        
        
         
       </section>

@@ -7,8 +7,8 @@ const Footer = () => {
       <div className={styles.footersubwrapper}>
       <div className={styles.grid}>
         <div>
-        <div className={styles.font}>Kids and Cubs Clinic
-            <div className={styles.fontlivia}>SPEECH PATHOLOGY</div></div>
+        <div >Integeratonal Live-in Student program
+            <div className={styles.fontlivia}>Promoting Healthy Aging</div></div>
            
 
         </div>
@@ -16,12 +16,9 @@ const Footer = () => {
             <section>
             <span>sanet.dutoit@sydney.edu.au</span>
             <br></br>
-            <span>126/85 Reynolds Street, Balmain NSW 2041 Australia
-</span>
-<div>Kids and Cubs Clinic Pty Ltd ABN 64105001622</div>
-<div>
-Copyright © 2022 Kids and Cubs Clinic - All Rights Reserved
-</div>
+      
+
+
               
             </section>
            

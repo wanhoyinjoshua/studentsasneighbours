@@ -23,7 +23,7 @@
       "next-env.d.ts",
       "**/*.ts",
       "**/*.tsx"
-, "react_components/navbar/Navbar.js", "pages/Calculations.js"    ],
+, "react_components/navbar/Navbar.js", "pages/Calculations.js", "react_components/navbar/Navbarlink.jsx"    ],
     "exclude": [
       "node_modules"
     ]

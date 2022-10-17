@@ -70,7 +70,7 @@ export default function OurServices() {
   return (
     <>
        
-    <h1 className={styles.OurServices}>Our Services</h1>
+   
     <div className={styles.ourservicewrapper}>
       
     
@@ -95,9 +95,9 @@ export default function OurServices() {
           <div className={styles.descriptiontext}>
             <div className={styles.textwrapper}>
 
-            <h2 className={styles.h2}>Assessment</h2>
+            <h2 className={styles.h2}>What is Intergenerational Living</h2>
             <p className={styles.p}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Although residential aged care facilities are designed as micro-communities, they inadvertently create living in an age-segregated environment that structurally denies the opportunities for the older adults to socially connect with the younger generation. Intergenerational Live-in Student Programs (ILiSP) were piloted with the aim to provide ongoing long-term contact and enable meaningful engagement of older adults through facilitating genuine and reciprocal relationships between the older and younger generation.
 
             </p>
 
@@ -117,9 +117,9 @@ export default function OurServices() {
     <div className={styles.descriptiontextleft}>
     <div className={styles.textwrapper}>
 
-<h2 className={styles.h2}>Intervention</h2>
+<h2 className={styles.h2}>Co-curricular opportunity</h2>
 <p className={styles.p}>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Participation in co-curricular programmes is widely recognized and promoted as an integral part of the student life experience and forms an extension of formal learning experiences for university students. Students highlighted that participation in ILiSP assisted them to develop professionally, as they gained greater insights into dementia and knowledge related to working in aged care. They also improved their communication with residents living with dementia, their significant others, multidisciplinary staff and/or managers. Many alumni specifically reported that ILiSP involvement supported them in their current employment. 
 </p>
 
 
@@ -167,9 +167,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <div className={styles.descriptiontext}>
       <div className={styles.textwrapper}>
 
-      <h2 className={styles.h2}>Consultation and Training</h2>
+      <h2 className={styles.h2}>The impact of ILisP</h2>
       <p className={styles.p}>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      Students and residents report shared connection and family-like affinity as another upshot of the program’s impact. Both current and past students experience family-like connections. For international live-in students, residents resemble a grandparent figure and provide opportunities to gain advice or learn new skills.  Students also relieve staff members’ carer burden by organising additional activities or providing residents with companionship. Residents, relatives, staff and students feel that more opportunities are created for residents to meaningfully engage as part of the program’s impact. Please refer to the Media Coverage section for more information. 
       </p>
 
 
