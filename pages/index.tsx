@@ -17,13 +17,20 @@ const index = () => {
   return (
     <div>
       <Head>
-      <title>Kids and Cubs Clinic</title>
+      <title>Integeratonal
+Live-in Student program</title>
       <link rel="icon" href="/favicon.ico" />
       
             <meta charSet="UTF-8" />
-            <meta name="description" content="Kids and Cubs Clinic is a private speech pathology practice located in Inner-West Sydney. We provide services to children aged 0 to 16 years for the following concerns:Childhood Apraxia of Speech,Difficulty understanding instructions,Using short sentences,Late talking,Stuttering,Language delays,Difficulty spelling,Lisps,Speech sound disorders,Difficulty reading,Fussy eating,Incorrect Grammar."/>
+            <meta name="description" content="Integeratonal
+Live-in Student program
+Promoting healthy aging
+"/>
             <meta name="viewport" content="width=device-width,initial-scale=1.0" /> 
-          <meta name="Kids and Cubs Clinic Specch Pathology" content="Kids and Cubs Clinic is a private speech pathology practice located in Inner-West Sydney. We provide services to children aged 0 to 16 years." />
+          <meta name="Kids and Cubs Clinic Specch Pathology" content="Integeratonal
+Live-in Student program
+Promoting healthy aging
+" />
           
         </Head>
               <style jsx>{`
