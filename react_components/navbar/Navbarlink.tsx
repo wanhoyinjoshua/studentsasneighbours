@@ -27,18 +27,18 @@ const [isOpen3, setOpen3] = useState<Boolean>();
 
 <div className={styles.subheadercontainer}>
 
-<Link  href="/#Our-Services">
+
     <button ref={ref}  onPointerEnter={() => setOpen(true)} className={styles.button} >Projects</button>
-</Link>
-<Divider orientation="vertical" variant="middle" flexItem />
-<Link href="/About-us">
-<button ref={ref2}  onPointerEnter={() => setOpen2(true)} className={styles.button}>Meet our students</button>
-</Link>
+
 <Divider orientation="vertical" variant="middle" flexItem />
 
-<Link href="/#contactus">
+<button ref={ref2}  onPointerEnter={() => setOpen2(true)} className={styles.button}>Meet our students</button>
+
+<Divider orientation="vertical" variant="middle" flexItem />
+
+
 <button ref={ref3}  onPointerEnter={() => setOpen3(true)} className={styles.button}>Media Coverage </button>
-</Link>
+
 
     
     
@@ -61,9 +61,9 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen(false)}
   transition
 >
-  <MenuItem><Link href={"/projects/Grannytell"}>Grannytell</Link></MenuItem>
+  <MenuItem><Link href={"https://grannytell.herokuapp.com/"}><a target="_blank" className={styles.projectlinks}>Grannytell</a></Link></MenuItem>
   
-  <MenuItem><Link href={"/projects/Walking-Trial-Southampton"}>Walking trail with Southampton University</Link></MenuItem>
+  <MenuItem><Link target="_blank" href={"https://doi.org/10.1080/13607863.2022.2098910"}><a target="_blank" className={styles.projectlinks}> Research Paper </a></Link></MenuItem>
 </ControlledMenu>
 <ControlledMenu
   state={isOpen2 ? 'open' : 'closed'}
@@ -72,8 +72,8 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen2(false)}
   transition
 >
-  <MenuItem><Link href={"/meet-our-students/Scalabrini"}>Scalabrini</Link></MenuItem>
-  <MenuItem><Link href={"/meet-our-students/Calvary"}>Calvary</Link></MenuItem>
+  <MenuItem><Link href={"/Meet-our-students"}><div className={styles.projectlinks}>Video introductions</div></Link></MenuItem>
+  
   
 </ControlledMenu>
 
@@ -84,10 +84,10 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen3(false)}
   transition
 >
-  <MenuItem><Link href={"/videos"}>Videos</Link></MenuItem>
+  <MenuItem><Link href={"/Media-videos"}><div className={styles.projectlinks}>Videos</div></Link></MenuItem>
   
-  <MenuItem><Link href={"/artices"}>Articles</Link></MenuItem>
-  <MenuItem><Link href={"/podcasts"}>Podcasts/Radio</Link></MenuItem>
+  <MenuItem><Link href={"/Media-articles"}><div className={styles.projectlinks}>Articles</div></Link></MenuItem>
+  <MenuItem><Link href={"/Media-podcasts"}><div className={styles.projectlinks}>Podcasts/Radio</div></Link></MenuItem>
   
 </ControlledMenu>
     

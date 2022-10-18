@@ -28,10 +28,10 @@ const Footer = () => {
         <br></br>
         
         <div className={styles.policy}>
-   <Link href="/Privacy-Policy"><a>Privacy Policy</a></Link>
-   <Link href="/sitemap.xml"><a>Sitemap</a></Link>
+   
+  
        
-        <Link href="/Terms-of-Use"><a>Terms of Use</a></Link>
+      
 
    </div>
 

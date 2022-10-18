@@ -39,7 +39,7 @@ const ResponsiveAppBar = () => {
    
     <section className={styles.HeroContentL}>
         <h1 className={styles.homeopagetitle}>
-          Integeratonal  <br></br>
+          Integerational  <br></br>
           Live-in Student program 
           
           </h1>

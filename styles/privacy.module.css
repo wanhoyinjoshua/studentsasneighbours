@@ -4,6 +4,44 @@
 
  padding-top: 5vh;
 }
+.videoplayer{
+    width: 50vw;
+  height: 60vh;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.mainwrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.articlewrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
+    margin: 0 auto;
+
+}
+@media only screen and (max-width: 800px) {
+    .articlewrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+}
+.videoplayerwrapper{
+
+
+}
 
 .bold{
     font-size: 1.5rem;
