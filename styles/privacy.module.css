@@ -1,5 +1,5 @@
 .main{
- width:80%;
+ width:100%;
  margin: 0 auto;
 
  padding-top: 5vh;
@@ -27,7 +27,7 @@
     margin: 0 auto;
 
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .articlewrapper{
         display: flex;
         flex-direction: column;
@@ -37,8 +37,17 @@
         margin: 0 auto;
     
     }
+    .videoplayer{
+        width: 90vw;
+      
+        margin: 0 auto;
+        justify-content: center;
+    
+    }
 }
 .videoplayerwrapper{
+    margin: 0;
+    padding: 0;
 
 
 }

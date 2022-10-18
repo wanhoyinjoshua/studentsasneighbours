@@ -141,26 +141,27 @@ const [color, setColor] = useState('primary')
          
           <div className={styles.links}>
 
-
+          <Link   onClick={toggle}href="https://grannytell.herokuapp.com/">
           
-                  <a color={color} className={styles.buttonmobile} onClick={togglecolor} > Our Services</a>
+                  <a color={color} className={styles.buttonmobile} onClick={togglecolor} >Granytell</a>
                   
-        
+              </Link>
               <div className={styles.seperator}>
           <Divider    />
           </div>
               
-      
+          <Link   onClick={toggle}href="https://www.tandfonline.com/doi/abs/10.1080/13607863.2022.2098910?journalCode=camh20">
           
-                  <a color={color} className={styles.buttonmobile} onClick={togglecolor} >About Us</a>
+                  <a color={color} className={styles.buttonmobile} onClick={togglecolor} >Research Paper</a>
                   
-                      <div className={styles.seperator}>
+              </Link>
+          <div className={styles.seperator}>
           <Divider    />
           </div>
               
-              <Link  onClick={toggle} href="/Frequently-asked-questions">
+              <Link  onClick={toggle} href="/Meet-our-students">
               
-              <a className={styles.buttonmobile} onClick={toggle} >FAQ</a>
+              <a className={styles.buttonmobile} onClick={toggle} >Meet our students - Video introduction</a>
               
               </Link>
               <div className={styles.seperator}>
@@ -169,9 +170,9 @@ const [color, setColor] = useState('primary')
               
 
               
-              <Link  onClick={toggle} href="/#contactus">
+              <Link  onClick={toggle} href="/Media-videos">
               
-              <a  className={styles.buttonmobile} onClick={toggle} >Contact Us </a>
+              <a  className={styles.buttonmobile} onClick={toggle} >Media Coverage- Videos</a>
               
               </Link>
               <div className={styles.seperator}>
@@ -179,28 +180,23 @@ const [color, setColor] = useState('primary')
           </div>
            
              
-              <Link  onClick={toggle} href="/Developmental-Milestones">
+          <Link  onClick={toggle} href="/Media-articles">
               
-              <a  className={styles.buttonmobile} onClick={toggle} >Milestones</a>
+              <a  className={styles.buttonmobile} onClick={toggle} >Media Coverage- Articles</a>
               
               </Link>
-
               <div className={styles.seperator}>
           <Divider    />
           </div>
            
-              <Link   onClick={toggle} href="/#contactus">
-              <div >
-              <ThemeProvider theme={theme}>
-
-              <Button  href="/Frequently-asked-questions"  className={styles.buttonmobile1} onClick={toggle} variant="contained" size="large">Enquire Now</Button>
-
-</ThemeProvider>
-           
-                </div>
+          <Link  onClick={toggle} href="/Media-podcast">
               
+              <a  className={styles.buttonmobile} onClick={toggle} >Media Coverage- Podcast</a>
               
               </Link>
+              <div className={styles.seperator}>
+          <Divider    />
+          </div>
               
              <div className={styles.seperator}></div>
   
@@ -211,8 +207,7 @@ const [color, setColor] = useState('primary')
           <div className={styles.info}>
            
           <Link href="/#contactus" className={styles.info}>sanet.dutoit@sydney.edu.au</Link><br></br>
-          <a target="blank" href="https://www.google.com/maps/place/110+Reynolds+St,+Balmain+NSW+2041">126/85 Reynolds Street, Balmain NSW 2041</a>
-            
+         
           </div>
           </section>
           
