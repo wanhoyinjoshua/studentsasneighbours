@@ -16,7 +16,7 @@ const Mediapodcast = () => {
             
            <div className={styles.mainwrapper}>
             <div className={styles.articlewrapper}>
-            <p>Featured on ABC Life Matters -'Like living with 100 grandparents' NSW International Student of the Year Joshua Wan</p>
+            <p>Featured on ABC Life Matters Like living with 100 grandparents NSW International Student of the Year Joshua Wan</p>
             <Microlink auto-play="false" muted="true" size='large' url='https://www.abc.net.au/radionational/programs/lifematters/joshua-wan,-nsw-international-student-of-the-year/13656792' />
             
 
