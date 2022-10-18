@@ -141,21 +141,20 @@ const [color, setColor] = useState('primary')
          
           <div className={styles.links}>
 
-          <Link   onClick={toggle}href="/#Our-Services">
+
           
                   <a color={color} className={styles.buttonmobile} onClick={togglecolor} > Our Services</a>
                   
-              </Link>
+        
               <div className={styles.seperator}>
           <Divider    />
           </div>
               
-          <Link   onClick={toggle}href="/About-us">
+      
           
                   <a color={color} className={styles.buttonmobile} onClick={togglecolor} >About Us</a>
                   
-              </Link>
-          <div className={styles.seperator}>
+                      <div className={styles.seperator}>
           <Divider    />
           </div>
               
