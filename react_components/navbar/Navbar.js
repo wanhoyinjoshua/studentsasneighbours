@@ -243,7 +243,7 @@ const [color, setColor] = useState('primary')
            <div className={styles.logotextwrapper}>
             
                 <h1 className={[styles.textbottom,styles.clear].join(" ")}>Intergenerational</h1>
-                <h2 className={styles.clear}>Live in student Program</h2>
+                <h2 className={styles.clear}>Live-in Student Program</h2>
                 
                 </div>
            
