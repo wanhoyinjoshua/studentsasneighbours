@@ -10,7 +10,7 @@ const Flipbook = () => {
    <a href="https://online.flippingbook.com/view/715848013/" className="fbo-embed" data-fbo-id="8a9aeca676" data-fbo-lightbox="yes" data-fbo-width="250px" data-fbo-height="188px" data-fbo-version="1">
     
     <div  className={styles.center}>
-    <Button variant="contained"> Click to read online as a flip book! ( this link will redirect you to flippingbook.com)</Button>
+    <Button variant="contained"> Click to read online as a flip book. ( this link will redirect you to flippingbook.com)</Button>
        
     </div>
     <Image src={coverpage}    
