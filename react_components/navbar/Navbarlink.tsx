@@ -61,7 +61,7 @@ const [isOpen3, setOpen3] = useState<Boolean>();
   onClose={() => setOpen(false)}
   transition
 >
-  <MenuItem><Link href={"https://grannytell.herokuapp.com/"}><a target="_blank" className={styles.projectlinks}>Grannytell</a></Link></MenuItem>
+  <MenuItem><Link href={"/projects/grannytell"}><a target="_blank" className={styles.projectlinks}>Grannytell</a></Link></MenuItem>
   
   <MenuItem><Link target="_blank" href={"https://doi.org/10.1080/13607863.2022.2098910"}><a target="_blank" className={styles.projectlinks}> Research Paper </a></Link></MenuItem>
 </ControlledMenu>
