@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 const Flipbook = () => {
   return (
     <div className={styles.main}>
-   <a href="https://online.flippingbook.com/view/715848013/" className="fbo-embed" data-fbo-id="8a9aeca676" data-fbo-lightbox="yes" data-fbo-width="250px" data-fbo-height="188px" data-fbo-version="1">
+   <a href="https://online.fliphtml5.com/eufyl/eaph/" className="fbo-embed" data-fbo-id="8a9aeca676" data-fbo-lightbox="yes" data-fbo-width="250px" data-fbo-height="188px" data-fbo-version="1">
     
     <div  className={styles.center}>
     <Button variant="contained"> Click to read online as a flip book. ( this link will redirect you to flippingbook.com)</Button>
