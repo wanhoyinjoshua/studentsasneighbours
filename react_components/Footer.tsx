@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
             
             <section>
-            <span>sanet.dutoit@sydney.edu.au</span>
+            <span>studentsasneighbours@outlook.com</span>
             <br></br>
       
 

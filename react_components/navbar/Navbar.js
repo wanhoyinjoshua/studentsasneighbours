@@ -206,7 +206,7 @@ const [color, setColor] = useState('primary')
       
           <div className={styles.info}>
            
-          <Link href="/#contactus" className={styles.info}>sanet.dutoit@sydney.edu.au</Link><br></br>
+          <Link href="/#contactus" className={styles.info}>studentsasneighbours@outlook.com</Link><br></br>
          
           </div>
           </section>
