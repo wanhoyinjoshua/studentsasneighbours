@@ -256,7 +256,7 @@ const [color, setColor] = useState('primary')
                 
              <Link href="/#contactus">
              <div className={ [styles.thirdnav,styles.contactwrappernav,styles.textbottomright,styles.textbottommobile,styles.border].join(" ")}>
-                <div className={[styles.noa,styles.thirdnav,styles.textbottom,styles.textbottommobile,styles.border].join(" ")}>sanet.dutoit@sydney.edu.au</div>
+                <div className={[styles.noa,styles.thirdnav,styles.textbottom,styles.textbottommobile,styles.border].join(" ")}>studentsasneighbours@outlook.com</div>
                
                 <div className={styles.callmelogo}><ContactMailOutlinedIcon></ContactMailOutlinedIcon></div>
                 </div>
